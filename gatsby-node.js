@@ -1,7 +1,7 @@
 exports.sourceNodes = ({ actions }) => {
   const { createTypes } = actions;
   const typeDefs = `
-    type contentfulBlogPost implements Node {
+    type ContentfulBlogPost implements Node {
       slug: String
     }
   `;
