@@ -1,0 +1,43 @@
+{
+  "name": "gatsby-contentful-starter",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.1.0",
+  "author": "Mate Mišlov <contact@matemislov.com>",
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.10.0",
+    "bootstrap": "^4.3.1",
+    "classnames": "^2.2.6",
+    "gatsby": "^2.3.22",
+    "gatsby-image": "^2.0.38",
+    "gatsby-plugin-canonical-urls": "^2.0.12",
+    "gatsby-plugin-lodash": "^3.0.5",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-plugin-sass": "^2.0.11",
+    "gatsby-plugin-sharp": "^2.0.34",
+    "gatsby-plugin-styled-components": "^3.0.7",
+    "gatsby-source-contentful": "^2.0.48",
+    "gatsby-transformer-remark": "^2.3.8",
+    "gatsby-transformer-sharp": "^2.1.18",
+    "lodash": "^4.17.11",
+    "node-sass": "^4.11.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.0",
+    "reactstrap": "^8.0.0",
+    "styled-components": "^4.2.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Matthaios/gatsby-contentful-starter"
+  }
+}
