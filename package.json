@@ -31,7 +31,7 @@
   "scripts": {
     "build": "gatsby build",
     "dev": "gatsby develop",
-    "deploy": "git add . && git commit -m '$1' && git push",
+    "deploy": "git add . && git commit -m '' && git push",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
