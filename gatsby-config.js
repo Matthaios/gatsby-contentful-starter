@@ -1,3 +1,6 @@
+require("dotenv").config({
+  path: `.env`
+});
 module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -8,9 +11,15 @@ module.exports = {
     {
       resolve: `gatsby-source-contentful`,
       options: {
-        spaceId: `tibqws1kix91`,
-        accessToken: `0e01d96c5fc024045734bd00cee85f4c1ec7757924f30d1a88247c125a54dc72`,
+        spaceId: `${process.env.spaceId}`,
+        accessToken: `${process.env.accessToken}`,
         downloadLocal: true
+      }
+    },
+    {
+      resolve: "gatsby-plugin-compile-es6-packages",
+      options: {
+        modules: ["gatsby-theme-contentful"]
       }
     }
   ]
